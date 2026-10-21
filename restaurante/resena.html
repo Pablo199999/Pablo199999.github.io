@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Pablo García Pavón">
+    <meta name="description" content="Formulario para enviar una reseña de un plato del restaurante.">
+    <meta name="keywords" content="restaurante, Córdoba, reseña de un plato">
+    <title>Reseña de un plato</title>
+</head>
+<body>
+<header>
+    <h1>Reseña de un plato</h1>
+</header>
+<main>
+<form action="#" method="post">
+<p><label for="plato">Plato:</label><br>
+<select id="plato" name="plato" required>
+<option value="">Selecciona un plato</option>
+<option value="tortilla">Tortilla de Patatas</option>
+<option value="salmorejo">Salmorejo</option>
+<option value="patatasbravas">Patatas Bravas</option>
+</select></p>
+<p><label for="nombre">Nombre:</label><br><input id="nombre" name="nombre" type="text" required></p>
+<p><label for="resena">Reseña del plato:</label><br><textarea id="resena" name="resena" rows="6" cols="50" required></textarea></p>
+<button type="submit">Enviar reseña</button> <button type="reset">Limpiar</button>
+</form>
+</main>
+<nav>
+    <a href="index.html">Volver a la página de Restaurante</a>
+</nav>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Pablo García Pavón">
+    <meta name="description" content="Formulario para reservar mesa en Sabores de Córdoba.">
+    <meta name="keywords" content="restaurante, Córdoba, reserva">
+    <title>Reserva</title>
+</head>
+<body>
+<header>
+    <h1>Reserva</h1>
+</header>
+<main>
+<form action="#" method="post">
+<p><label for="nombre">Su nombre:</label><br><input id="nombre" name="nombre" type="text" required></p>
+<p><label for="clientes">Número de clientes:</label><br><input id="clientes" name="clientes" type="number" min="1" required></p>
+<p><label for="correo">Su correo electrónico:</label><br><input id="correo" name="correo" type="email" required></p>
+<p><label for="telefono">Su teléfono:</label><br><input id="telefono" name="telefono" type="tel" required></p>
+<p><label for="fecha">Fecha de la reserva:</label><br><input id="fecha" name="fecha" type="date" required></p>
+<p><label for="hora">Hora de la reserva:</label><br><input id="hora" name="hora" type="time" required></p>
+<p><label for="mensaje">Su mensaje:</label><br><textarea id="mensaje" name="mensaje" rows="4" cols="40"></textarea></p>
+<button type="submit">Solicitar reserva</button> <button type="reset">Limpiar</button>
+</form>
+</main>
+<nav>
+    <a href="index.html">Volver a la página de Restaurante</a>
+</nav>
+</body>
+</html>
