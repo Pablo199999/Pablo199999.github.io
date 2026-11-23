@@ -1,0 +1,25 @@
+header {
+    background-color: #aa4747;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 25px; /* Separación entre el header y la tabla */
+}
+
+.apertura {
+    background-color: #38b000; /* Verde intenso */
+    text-align: center;
+    color: black;
+}
+
+.cierre {
+    background-color: #d90429; /* Rojo intenso */
+    text-align: center;
+    color: white; /* Texto blanco para que resalte mejor con el rojo fuerte */
+}
+
+.cerrado-total {
+    background-color: #ffb703; /* Amarillo/Naranja intenso */
+    text-align: center;
+    color: black;
+}

@@ -1,0 +1,62 @@
+header {
+    background-color: #aa4747;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 25px; 
+}
+
+.sistemas {
+    background-color: #2b9348; 
+    text-align: center;
+    color: black;
+}
+
+.web {
+    background-color: #0077b6; 
+    text-align: center;
+    color: black;
+}
+
+.servicios {
+    background-color: #d90429; 
+    text-align: center;
+    color: black;
+}
+
+.seguridad {
+    background-color: #ffb703; 
+    text-align: center;
+    color: black;
+}
+
+.optativa {
+    background-color: #7209b7; 
+    text-align: center;
+    color: black;
+}
+
+.ingles {
+    background-color: #fb8500; 
+    text-align: center;
+    color: black;
+}
+
+.proyecto {
+    background-color: #00b4d8; 
+    text-align: center;
+    color: black;
+}
+
+.empleabilidad {
+    background-color: #6c757d; 
+    text-align: center;
+    color: black;
+}
+
+.descanso {
+    background-color: #adb5bd; 
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}

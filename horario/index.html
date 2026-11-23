@@ -6,6 +6,7 @@
     <meta name="description" content="Horario de clase de Pablo García Pavón, alumno de 2.º SMR.">
     <meta name="keywords" content="horario de clase, 2 SMR, HTML">
     <title>Horario de clase - Pablo García Pavón</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
     <header>
@@ -20,13 +21,13 @@
             <tr><th>Horario</th><th>Lunes</th><th>Martes</th><th>Miércoles</th><th>Jueves</th><th>Viernes</th></tr>
         </thead>
         <tbody>
-            <tr><th>08:15–09:15</th><td>Sistemas Operativos en Red</td><td>Sistemas Operativos en Red</td><td>Optativa: Desarrollo web y programación</td><td>Seguridad Informática</td><td>Seguridad Informática</td></tr>
-            <tr><th>09:15–10:15</th><td>Aplicaciones Web</td><td>Sistemas Operativos en Red</td><td>Aplicaciones Web</td><td>Seguridad Informática</td><td>Seguridad Informática</td></tr>
-            <tr><th>10:15–11:15</th><td>Servicios en Red</td><td>Inglés Profesional GM</td><td>Servicios en Red</td><td>Sistemas Operativos en Red</td><td>Optativa: Desarrollo web y programación</td></tr>
-            <tr><th>11:15–11:45</th><td colspan="5" align="center">Descanso (30 minutos)</td></tr>
-            <tr><th>11:45–12:45</th><td>Proyecto Intermodular</td><td>Itinerario Personal para la Empleabilidad II</td><td>Sistemas Operativos en Red</td><td>Servicios en Red</td><td>Itinerario Personal para la Empleabilidad II</td></tr>
-            <tr><th>12:45–13:45</th><td>Optativa: Desarrollo web y programación</td><td>Servicios en Red</td><td>Proyecto Intermodular</td><td>Aplicaciones Web</td><td>Sistemas Operativos en Red</td></tr>
-            <tr><th>13:45–14:45</th><td>Itinerario Personal para la Empleabilidad II</td><td>Servicios en Red</td><td>Inglés Profesional GM</td><td>Aplicaciones Web</td><td>Servicios en Red</td></tr>
+            <tr><th>08:15–09:15</th><td class="sistemas">Sistemas Operativos en Red</td><td class="sistemas">Sistemas Operativos en Red</td><td class="optativa">Optativa: Desarrollo web y programación</td><td class="seguridad">Seguridad Informática</td><td class="seguridad">Seguridad Informática</td></tr>
+            <tr><th>09:15–10:15</th><td class="web">Aplicaciones Web</td><td class="sistemas">Sistemas Operativos en Red</td><td class="web">Aplicaciones Web</td><td class="seguridad">Seguridad Informática</td><td class="seguridad">Seguridad Informática</td></tr>
+            <tr><th>10:15–11:15</th><td class="servicios">Servicios en Red</td><td class="ingles">Inglés Profesional GM</td><td class="servicios">Servicios en Red</td><td class="sistemas">Sistemas Operativos en Red</td><td class="optativa">Optativa: Desarrollo web y programación</td></tr>
+            <tr><th>11:15–11:45</th><td colspan="5" align="center" class="descanso">Descanso (30 minutos)</td></tr>
+            <tr><th>11:45–12:45</th><td class="proyecto">Proyecto Intermodular</td><td class="empleabilidad">Itinerario Personal para la Empleabilidad II</td><td class="sistemas">Sistemas Operativos en Red</td><td class="servicios">Servicios en Red</td><td class="empleabilidad">Itinerario Personal para la Empleabilidad II</td></tr>
+            <tr><th>12:45–13:45</th><td class="optativa">Optativa: Desarrollo web y programación</td><td class="servicios">Servicios en Red</td><td class="proyecto">Proyecto Intermodular</td><td class="web">Aplicaciones Web</td><td class="sistemas">Sistemas Operativos en Red</td></tr>
+            <tr><th>13:45–14:45</th><td class="empleabilidad">Itinerario Personal para la Empleabilidad II</td><td class="servicios">Servicios en Red</td><td class="ingles">Inglés Profesional GM</td><td class="web">Aplicaciones Web</td><td class="servicios">Servicios en Red</td></tr>
         </tbody>
         <tfoot><tr><td colspan="6">Horario semanal de clase.</td></tr></tfoot>
     </table>
