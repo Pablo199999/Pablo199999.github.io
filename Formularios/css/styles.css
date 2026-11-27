@@ -1,22 +1,22 @@
-
+/* Reseteo: quito los márgenes y rellenos que pone el navegador */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
+/* Reseteo de controles: usan la misma letra que el resto de la página */
 input, select, textarea, button {
     font-family: inherit;
     font-size: inherit;
 }
 
-
+/* Un poco de espacio entre radios y casillas y su texto */
 input[type="radio"], input[type="checkbox"] {
     margin-right: 4px;
 }
 
-
+/* Cabecera igual que la de la página principal */
 header {
     background-color: rgb(112, 112, 248);
     color: rgb(0, 40, 85);
@@ -24,13 +24,13 @@ header {
     padding: 15px;
 }
 
-
+/* Texto bajo el título (el del club va en cursiva) */
 header p {
     font-style: italic;
     margin-top: 5px;
 }
 
-
+/* Menú azul claro como el de la página principal */
 nav {
     background-color: rgb(95, 151, 255);
     color: rgb(246, 247, 248);
@@ -42,17 +42,17 @@ nav {
     gap: 5px 30px;
 }
 
-
+/* El título del menú ocupa toda la línea */
 nav h2 {
     width: 100%;
 }
 
-
+/* Quito los saltos de línea del menú, el flex ya los separa */
 br {
     display: none;
 }
 
-
+/* Zona principal con el fondo casi blanco de la página principal */
 main {
     background-color: rgb(250, 247, 247);
     color: rgb(0, 128, 255);
@@ -60,18 +60,18 @@ main {
     padding: 20px;
 }
 
-
+/* Enlaces blancos sin subrayar */
 a {
     color: white;
     text-decoration: none;
 }
 
-
+/* Subrayado al pasar el ratón */
 a:hover {
     text-decoration: underline;
 }
 
-
+/* Pie de página: fondo azul, texto claro y centrado */
 footer {
     background-color: rgb(112, 112, 248);
     color: rgb(253, 254, 255);
@@ -80,7 +80,7 @@ footer {
     margin-top: 20px;
 }
 
-
+/* Formulario centrado y con el texto a la izquierda */
 form {
     width: 800px;
     max-width: 100%;
@@ -88,7 +88,7 @@ form {
     text-align: left;
 }
 
-
+/* Bloques del formulario con texto azul oscuro para que se lea bien */
 fieldset {
     color: rgb(0, 40, 85);
     border: 1px solid rgb(0, 40, 85);
@@ -96,7 +96,7 @@ fieldset {
     margin-bottom: 20px;
 }
 
-
+/* Título de cada bloque */
 legend {
     background-color: white;
     border: 1px solid rgb(0, 40, 85);
@@ -104,12 +104,12 @@ legend {
     font-size: 14px;
 }
 
-
+/* Separación entre párrafos */
 p {
     margin-bottom: 10px;
 }
 
-
+/* Campos de texto, listas y área de texto con borde azul */
 input, select, textarea {
     background-color: white;
     color: rgb(0, 40, 85);
@@ -117,7 +117,7 @@ input, select, textarea {
     padding: 4px 8px;
 }
 
-
+/* Botones azul oscuro y redondeados */
 button {
     width: 220px;
     padding: 10px;
@@ -129,12 +129,12 @@ button {
     cursor: pointer;
 }
 
-
+/* Botón más claro al pasar el ratón */
 button:hover {
     background-color: rgb(31, 91, 181);
 }
 
-
+/* Fila de botones centrada */
 .botones {
     display: flex;
     justify-content: center;
@@ -142,73 +142,75 @@ button:hover {
 }
 
 
+/* ---------- Hoja de inscripción ---------- */
 
-
-
+/* Datos personales: azul muy suave */
 .personales {
     background-color: #d7e5ff;
 }
 
-
+/* Forma de acceso: lila suave */
 .acceso {
     background-color: #dbdbfd;
 }
 
-
+/* Documentos adjuntados: azul más fuerte */
 .documentos {
     background-color: #afcbff;
 }
 
-
+/* Fila de campos en horizontal */
 .fila {
     display: flex;
     gap: 20px;
     margin-bottom: 10px;
 }
 
-
+/* Cada campo ocupa el mismo ancho dentro de la fila */
 .campo {
     flex: 1;
 }
 
-
+/* Campo que ocupa el doble (la dirección) */
 .ancho {
     flex: 2;
 }
 
-
+/* La etiqueta va encima del campo */
 .campo label {
     display: block;
 }
 
-
+/* Los campos llenan todo el ancho de su columna */
 .campo input, .campo select {
     width: 100%;
 }
 
+/* Opciones de acceso directo sangradas */
 .sangria {
     margin-left: 30px;
 }
 
-
+/* Campos de texto de las opciones */
 .acceso input[type="text"], .documentos input[type="text"] {
     width: 220px;
 }
 
-
+/* Documentos uno al lado del otro */
 .documentos p {
     display: inline-block;
     margin-right: 30px;
 }
 
-
+/* Última opción en su propia línea */
 .documentos .salto {
     display: block;
 }
 
 
+/* ---------- Formulario del club ---------- */
 
-
+/* Datos personales: lila, esquinas redondeadas en diagonal y sombra */
 .datos {
     background-color: #c6c6fc;
     border: 0;
@@ -217,6 +219,7 @@ button:hover {
     box-shadow: 0 12px 10px -8px rgba(0, 40, 85, 0.4);
 }
 
+/* Otra información: azul suave con el mismo estilo */
 .interes {
     background-color: #bfd5ff;
     border: 0;
@@ -225,6 +228,7 @@ button:hover {
     box-shadow: 0 12px 10px -8px rgba(0, 40, 85, 0.4);
 }
 
+/* Título de los bloques del club: cursiva y a la derecha */
 .datos legend, .interes legend {
     float: left;
     width: 100%;
@@ -234,10 +238,12 @@ button:hover {
     font-style: italic;
 }
 
+/* Cada línea del club */
 .linea {
     margin-bottom: 10px;
 }
 
+/* Etiquetas a la izquierda, alineadas a la derecha y en negrita */
 .etiqueta {
     display: inline-block;
     width: 200px;
@@ -246,36 +252,37 @@ button:hover {
     margin-right: 10px;
 }
 
+/* Campos de texto del club */
 .datos input[type="text"], .datos input[type="email"], .datos input[type="tel"] {
     width: 300px;
 }
 
-
+/* Espacio antes de cada botón de radio */
 .datos input[type="radio"] {
     margin-left: 10px;
 }
 
-
+/* Textos de pregunta en negrita encima de su campo */
 .pregunta {
     display: block;
     font-weight: bold;
     margin-bottom: 5px;
 }
 
-
+/* Actividades en 3 columnas */
 .actividades {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 15px;
 }
 
-
+/* Cada actividad ocupa un tercio */
 .opcion {
     width: 33%;
     margin-bottom: 5px;
 }
 
-
+/* Área de texto del motivo a todo el ancho */
 .interes textarea {
     width: 100%;
     height: 100px;

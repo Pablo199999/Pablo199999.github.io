@@ -1,3 +1,4 @@
+/* Cabecera de la página con separación respecto a la tabla */
 header {
     background-color: #aa4747;
     color: rgb(0, 0, 0);
@@ -6,54 +7,63 @@ header {
     margin-bottom: 25px; 
 }
 
+/* Celdas de Sistemas Operativos en Red (verde) */
 .sistemas {
     background-color: #2b9348; 
     text-align: center;
     color: black;
 }
 
+/* Celdas de Aplicaciones Web (azul) */
 .web {
     background-color: #0077b6; 
     text-align: center;
     color: black;
 }
 
+/* Celdas de Servicios en Red (rojo) */
 .servicios {
     background-color: #d90429; 
     text-align: center;
     color: black;
 }
 
+/* Celdas de Seguridad Informática (amarillo) */
 .seguridad {
     background-color: #ffb703; 
     text-align: center;
     color: black;
 }
 
+/* Celdas de la Optativa: Desarrollo web y programación (morado) */
 .optativa {
     background-color: #7209b7; 
     text-align: center;
     color: black;
 }
 
+/* Celdas de Inglés Profesional (naranja) */
 .ingles {
     background-color: #fb8500; 
     text-align: center;
     color: black;
 }
 
+/* Celdas de Proyecto Intermodular (azul claro) */
 .proyecto {
     background-color: #00b4d8; 
     text-align: center;
     color: black;
 }
 
+/* Celdas de Itinerario Personal para la Empleabilidad (gris oscuro) */
 .empleabilidad {
     background-color: #6c757d; 
     text-align: center;
     color: black;
 }
 
+/* Fila del descanso (gris claro y en negrita) */
 .descanso {
     background-color: #adb5bd; 
     text-align: center;

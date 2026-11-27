@@ -1,3 +1,4 @@
+/* Cabecera de la página con separación respecto a la tabla */
 header {
     background-color: #aa4747;
     color: rgb(0, 0, 0);
@@ -6,18 +7,21 @@ header {
     margin-bottom: 25px; /* Separación entre el header y la tabla */
 }
 
+/* Celdas de la hora de apertura (verde) */
 .apertura {
     background-color: #38b000; /* Verde intenso */
     text-align: center;
     color: black;
 }
 
+/* Celdas de la hora de cierre (rojo) */
 .cierre {
     background-color: #d90429; /* Rojo intenso */
     text-align: center;
     color: white; /* Texto blanco para que resalte mejor con el rojo fuerte */
 }
 
+/* Celda de los días que el restaurante está cerrado (amarillo) */
 .cerrado-total {
     background-color: #ffb703; /* Amarillo/Naranja intenso */
     text-align: center;
