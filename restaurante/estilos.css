@@ -1,0 +1,85 @@
+/* Reseteo: quito los márgenes y rellenos que pone el navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fondo crema para toda la página */
+body {
+    background-color: #fff3df;
+    color: #3b1f1f;
+}
+
+/* Cabecera con el rojo del horario del restaurante */
+header {
+    background-color: #aa4747;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Espacio alrededor del formulario */
+main {
+    padding: 25px 15px;
+}
+
+/* Formulario como una tarjeta blanca con borde rojo y franja amarilla arriba */
+form {
+    width: 500px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: white;
+    border: 2px solid #aa4747;
+    border-top: 10px solid #ffb703;
+}
+
+/* Separación entre cada pregunta */
+p {
+    margin-bottom: 15px;
+}
+
+/* Etiquetas en negrita y color rojo */
+label {
+    font-weight: bold;
+    color: #aa4747;
+}
+
+/* Campos a todo el ancho con borde rojo y fondo crema claro */
+input, select, textarea {
+    width: 100%;
+    margin-top: 5px;
+    padding: 8px;
+    border: 1px solid #aa4747;
+    background-color: #fffaf2;
+    font-family: inherit;
+}
+
+/* Botones rojos con texto blanco */
+button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: 0;
+    background-color: #aa4747;
+    color: white;
+    cursor: pointer;
+}
+
+/* Botones amarillos al pasar el ratón */
+button:hover {
+    background-color: #ffb703;
+    color: black;
+}
+
+/* Enlace de volver centrado */
+nav {
+    text-align: center;
+    padding: 15px;
+}
+
+/* Enlace de volver rojo y en negrita */
+a {
+    color: #aa4747;
+    font-weight: bold;
+}
